@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 ">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook Logo" style="width: 200px;">
+                        <h4>Sign Up Facebook</h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="index.php" method="POST">
+                            <div class="form-group">
+                                <label for="email">Email address or phone number</label>
+                                <input name="signup_email" type="email" class="form-control" id="email" placeholder="Enter your email or phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input name="signup_password" type="password"  class="form-control" id="password" placeholder="Enter your password">
+                            </div>
+                           
+                            <button type="submit" class="btn btn-primary">Create Account</button>
+                            <div class="form-group">
+                                <a href="#" class="forgot-password">Forgotten password?</a>
+                            </div>
+                          
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
